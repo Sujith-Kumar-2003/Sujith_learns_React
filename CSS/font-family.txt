@@ -1,0 +1,12 @@
+Font Family
+
+h1{
+font-family: Helvetica, sans-serif (if Helvetica is not available then we will use the sans serif)
+}
+the sans-serif is a backup here.
+
+h2{
+font-family:"Times New Roman",serif
+}
+
+If there are more than 1 word we need to use the quotation marks

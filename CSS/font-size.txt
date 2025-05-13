@@ -1,0 +1,7 @@
+FONT SIZES are of 4 types.
+
+1. pixel ===> 1/96 of an inch
+2. point ===> 1/72 of an inch
+3. 1 em ===> 100% of the parent
+4. 1 rem ===> 100% of the root
+

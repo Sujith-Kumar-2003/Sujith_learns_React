@@ -1,0 +1,26 @@
+html{
+    background: aqua;
+}
+h1{
+    background: blueviolet;
+}
+
+.red-text{
+    color:red
+}
+
+.green-text{
+    color:green
+}
+
+#suji{
+    color: chocolate
+}
+
+p[draggable = "true"]{
+    color : gold;
+}
+
+p[draggable = "false"]{
+    color: orangered;
+}

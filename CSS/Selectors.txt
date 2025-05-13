@@ -1,0 +1,57 @@
+there are many types of selectors in CSS
+
+FOR CLASS USE .
+FOR ID USE #
+
+1. Element selector (for example: h1{
+color: blue
+})
+
+the h1 here is the element selector, you are choosing the h1 here which is an element.
+
+2. Class Selector(for example: .red-heading{
+color:red
+})
+
+<link href = "./style.css" rel = "stylesheet">
+
+<h2 class = "red-text"> This code will be red.</h2>
+
+<h2 class = "green-text"> This code will be green.</h2>
+
+.red-text{
+    color:red
+}
+
+.green-text{
+    color:green
+}
+
+
+3. ID selector
+ALSO THERE CANT BE DUPLICATE ID
+there can be only 1 suji element
+
+<h1 id = "suji" > This is my name </h1>
+#suji{
+    color: chocolate
+}
+
+4. Attribute Selector
+
+This will only select paragraphs that are draggable.
+
+p[draggable]{
+color: red
+}
+
+<p draggable = true > This is a draggable paragraph</p>
+<p draggable="false"> This is not a draggable paragraph</p>
+
+
+5. Universal Selector
+
+*{
+color: red
+}
+selects all and put it to red.
