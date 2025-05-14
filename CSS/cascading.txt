@@ -1,0 +1,63 @@
+PSTI
+
+1. Position
+
+For example ==>
+
+li{
+color:red;
+color:blue
+}
+
+The lowest one in the style sheet will be applied.
+
+Here the color blue will be applied. FIrst the red will be applied then the color will be chnageed to blue.
+
+2. Specificity
+
+<li id = "first-id" class = "first-class" draggable = true>
+
+li{color:blue}
+.first-class{color:red}
+li[draggable] {color:purple}
+#first-id{ color:orange}
+
+there can be a lot of element with same class, but id is unique, and there will be only 1 object with the same id.
+element < class < attribute < id
+
+SO Css with id is more prioritized
+
+3. Type
+External Internal Inline
+The Inline will be prioritized over here. Eventhough you have multiple attributes, the inline will be more specific.
+
+<link href = "styles.css" rel = "stylesheet">
+<style> </style>
+<h1 style = " "> Hello </h1>
+
+4. Importance
+
+color: red
+color:green !important
+
+Important keyword, so it will be applied, whatever the previous rule is. This will be applied.
+
+
+<h1 class = "a-class another-class">Hello </h1>
+.a-class{
+color:green ;
+}
+.another-class{
+color:blue;
+}
+since the another class is below the a-class in the file the another-class will be applied.
+
+
+Another example
+<html lang="en">
+<head>
+<style> #an-id{color:green}</style>
+</head>
+<body> <h1 id="an-id" style = "color:blue"> Hello </h1>
+</body> </html>
+

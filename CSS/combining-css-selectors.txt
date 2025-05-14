@@ -1,0 +1,53 @@
+<p> Yellow Text</p>
+<div class = "inner-box">
+<p> White text</p>
+</div>
+
+
+p{
+color:yellow;
+}
+
+.inner-box p{
+color:white;
+}
+
+Types of Grouping selectors.
+
+1. Group selectors
+selector, selector{
+color:blueviolet;
+}
+for example: h1,h2{
+color:blueviolet;
+}
+
+2. Child
+
+selector > selector{
+color:blueviolet
+} (This can be applied to parent and child exactly one level below). Child and parent only no grandchild
+
+
+3. Ancestor Descendant
+.box li{
+color: blue;
+}
+
+4. Chaining
+selectorselector{
+color: seagreen;
+}
+for example:
+<h1 id="title" class ="big heading"> Hello Word </h1>
+
+we can choose this using,
+h1#title.big.heading{
+color:blueviolet;
+}
+
+5. Combining Combiners
+
+selector selectorselector{
+font-size:2rem
+}
