@@ -1,0 +1,8 @@
+MEDIA queries
+@media (max-width:600px){
+CSS for screens below or equal to 600px wide.
+}
+
+Css grid:
+display methods: grid, flex, inline, inline-block, block, None
+

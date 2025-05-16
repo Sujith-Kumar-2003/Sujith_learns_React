@@ -24,3 +24,10 @@ p[draggable = "true"]{
 p[draggable = "false"]{
     color: orangered;
 }
+
+h2{
+    color: #C58940;
+    display: inline-block;
+    height: 200px;
+    font-size:200px;
+}
