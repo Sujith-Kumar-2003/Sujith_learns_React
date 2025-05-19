@@ -3,6 +3,15 @@ MEDIA queries
 CSS for screens below or equal to 600px wide.
 }
 
-Css grid:
-display methods: grid, flex, inline, inline-block, block, None
+You can also combine these media queries.
+@media (min-width:600px) and (max-width:1200px){
+this gives the style for screens between 600 and 1200pixles screens
 
+
+You can aslo do this other way around: @media (max-width:600px) and (min-width:900px){
+THIS WILL APPLY for screen sizes less than 600px and screens more than 900px
+
+}
+h1{color:green;}
+
+}

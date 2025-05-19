@@ -1,6 +1,21 @@
-html{
-    background: aqua;
+
+
+@media (max-width: 1200px){
+    h1{background:green;
+    color:red};
+    .body h2{
+        background:red;
+        color:green};
 }
+
+@media (min-width: 1200px){
+    h1{background:red;
+    color:green};
+    .body h2{
+        background:green;
+        color:red};
+}
+
 h1{
     background: blueviolet;
 }
