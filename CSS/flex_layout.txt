@@ -1,0 +1,61 @@
+So layout, first thing i learned is ORDER
+
+Order is a propoertuy that can be used inside a container,
+but just remember this, higher the order, the lower it will be 
+in the list.
+
+.red{
+    order:1
+}
+
+.green{
+    order:4
+}
+
+first red will be placed beneath green.
+Thats a fact. 
+
+Next thing is called flex-wrap:
+
+flex-wrap: nowrap
+flex-wrap:wrap
+flex-wrap:wrapreverse
+These are the two properties, where wrap will wrap,but the wrap reverse
+will wrap in the opposite direction, from the bottom left corner.
+
+Now lets move on to the parent container properties:
+justify-content: flex-start;
+justify-content:flex-end;
+justify-content:center;
+
+justify-content: space-between; First and last elemtns are stuck to the end of eht screen
+but the others are evenly space between
+
+justify-content: space-around; Mkaes sure the first adn last have same space betwen all of then
+lets say all elements int eh mid have 2 units of gap
+the left and right has one unit gap from left and right;
+
+justify-contnet: space-evenly; The thing is all spaces are even;
+
+Align Items:
+70vh height is 70% of the window that you are using 70% of the page;
+the container that you are creating is 70% of the total height;
+
+We need to set the height in order to show all the alignments for example;
+height: 70vh;
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+align-items: baseline;
+align-items: stretch;
+
+Also you can set the align-self to a child, to certain properties,
+align-self: flex-start;
+align-self: anything from align-items(flex-start, flex-end, center, stretch, baseline, etc.)
+
+align-content: this only works when you set the flex-wrap to wrap.
+if done with nowrap, it doesn't work.
+Also it only applies to parent class.
+
+You can also use the flex-flow which takes 2 values. The <flex-direction> and <flex-wrap>
+

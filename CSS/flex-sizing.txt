@@ -1,0 +1,31 @@
+Priority list:
+
+order of items that flex-box chooses to set the size in each scenenrio.
+MAX-WIDTH/MIN-WIDTH > FLEX-BASIS > WIDTH / height > CONTENT-WIDTH;
+
+So say if the 
+width:100px and flex-basis:200px is set, the flex basis will be considered since it is on the top of the list.
+
+min-width is considered by the longest word in the sentence, and max-width is the size of the longest flex item.
+
+so, 
+flex-basis:200px;
+and max-width:100px; is set the max-width will be considered bcoz of order.
+
+
+flex-grow: and flex-shrink:
+
+flex-basis:100px;
+flex-grow:0;
+flex-shrink:0;
+
+
+flex-grow and flex-shrink can take 0 or 1 int values.
+
+0 means off, 1 means on.
+grow means it grows to completely fill up the entire width of the container.
+
+flex-basis:100px;
+flex-grow:1;
+flex-shrink:1;
+

@@ -1,0 +1,3 @@
+Remember the flex-basis is not a property of the parent, It should be applied to the child.
+
+to fit the content to the best use the display: inline-flex to fit best;
