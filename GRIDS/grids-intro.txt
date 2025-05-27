@@ -1,0 +1,19 @@
+Flexbox: YOU can imagine this like a 1 dimensional item which you xan use to design 
+items inn 1 dimension.
+
+Grid: You can use tis if you want to edit the thing in 2 dimension. If you want to edit out things
+in 2 dimension and have a better control of what you do. Grid is the way to go.
+
+<div class = "container">
+<p> ,...</p>
+<p> ,...</p>
+<p> ,...</p>
+<p> ,...</p>
+</div>
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    grid-template-rows:1fr 1fr;
+    gap:10px;
+}

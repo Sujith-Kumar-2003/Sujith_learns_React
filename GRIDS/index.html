@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+<head>
+    <title> grid example</title>
+        <style>
+            .container{
+                display:grid;
+                grid-template-columns:1fr 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 15px;
+                height: 20px;
+                }
+                p{
+                    height: 30px;
+                    color:white;
+                }
+                .pink{
+                    color:black;
+                }
+                .lightblue{
+                    color:black;
+                }
+        </style>
+</head>
+<body>
+    <div class = "container">
+    <p style = "background-color: green">This is the first </p>
+    <p style = "background-color: red">This is seconds</p>
+    <p style = "background-color: blue">This is third</p>
+    <p class = "pink" style = "background-color: pink">This is fourth</p>
+    <p class=" lightblue" style = "background-color: paleturquoise">This is fifth</p>
+    <p style = "background-color: darkgoldenrod">This is six</p>
+    </div>
+</body>
+</html>

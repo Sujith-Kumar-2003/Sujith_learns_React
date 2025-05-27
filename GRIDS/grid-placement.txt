@@ -1,0 +1,17 @@
+Lets learn how to place items in the grid.
+
+grid-column: span 2
+
+this spans the item to 2 cells
+
+If you want to place an item somewhere in the grid, you can do this by:
+
+grid-column-start: 2;
+grid-column-end: 4;
+
+Which spans it from 2-4 columns instead of 1 to 3.
+
+You can also use -1 or -2 where -1 means the end of the column and the -2 means the column before the end.
+This is useful to set the thing dynamically rather than static use.
+
+1 means the left most line and -1 means the right most line.
