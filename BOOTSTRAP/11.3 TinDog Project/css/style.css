@@ -32,14 +32,11 @@
   justify-content: center;
 }
 
-#testimonial .container .row {
-  height: 30px;
-}
 
 #testimonial .container .row img {
   height: 30px;
-  object-fit: contain;
 }
+
 .profile-img {
   height: 100px;
   border-radius: 50%;
