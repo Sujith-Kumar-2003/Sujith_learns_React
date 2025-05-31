@@ -1,0 +1,30 @@
+Say if you want to evenly space out the column sizes in the container.
+You can easily do that in bootstrap.
+Bootstrap uses the 12=container thing.
+
+So the space is evenly divieded into 12 columns.
+
+so you can specify as col-2 and col-10 which will divide the whole
+container space into 2 parts and 10 parts.
+
+or col-2 col-4 col-6 to divide the contaienr into 3 parts.
+you have to specify these names in the class name.
+
+<div class = "container">
+    <div class = "row">
+        <div class="col-2"> Hello </div>
+        <div class="col-4"> Hello </div>
+        <div class="col-6"> Hello </div>
+    </div>
+</div>
+
+THis is what i was talking about.
+small-mobile, medium-ipad, large-laptop, xl - desktop, xxl - tv or more. xs - narrow screen and handheld.
+
+FOR EXAmple, you can use col-sm-2, col-sm-4, col-sm-6.
+which means col-small_device_into_2_col_size\]
+
+Now lets get more complex-->
+col-sm-12 col-md-8 col-lg-4
+this means on small device it takes the whole size, in medium it takes 8 out of 12
+in large devices it takes 4/12 the whole width.
