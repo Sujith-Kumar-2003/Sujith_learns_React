@@ -13,7 +13,7 @@ in 2 dimension and have a better control of what you do. Grid is the way to go.
 
 .container{
     display:grid;
-    grid-template-columns:1fr 2fr;
+    grid-template-columns:1fr 2fr;(fr means fractional size) # this means 1st column will be 100 px and the next will be 2x which is 200px
     grid-template-rows:1fr 1fr;
     gap:10px;
 }

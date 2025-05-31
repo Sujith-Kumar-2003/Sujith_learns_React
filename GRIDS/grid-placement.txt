@@ -15,3 +15,8 @@ You can also use -1 or -2 where -1 means the end of the column and the -2 means 
 This is useful to set the thing dynamically rather than static use.
 
 1 means the left most line and -1 means the right most line.
+
+NEXT THING is the order:
+order:1;
+the higher the order the more towards the last it will be placed.
+usualyy everything has order of 0;

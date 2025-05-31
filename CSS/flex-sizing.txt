@@ -28,4 +28,17 @@ grow means it grows to completely fill up the entire width of the container.
 flex-basis:100px;
 flex-grow:1;
 flex-shrink:1;
+this means it will consiuem the wjole width of the flexbox and it will shrink to the smallest content of the flexbox.
+if min-width is not used then this smallest word is considered, else the min-width is considered.
+
+
+
+You can use shorthand to these 3 things.
+flex-basis, flex-grow, flex-shrink
+flex: 1 0 0; <grow> <shrink> <basis>
+
+you can shorten it even further with flex:1 , flex:2, flex:3
+
+
+
 
