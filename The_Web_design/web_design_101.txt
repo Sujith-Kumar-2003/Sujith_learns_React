@@ -1,0 +1,29 @@
+So there are color palette:
+RED: Shows love 
+eg: CAR AD
+
+Yellow: For attention that you can never miss.
+eg: bikini AD
+
+Green: Shows fresh and shows your product is good and organic.
+eg: HElloFresh and AmazonFood
+
+Blue: Serenity: to show that you are trustwoerthy.
+eg: Financial institutions, Paypal.
+
+Purple: Royalty, wealthy and femininity.
+eg: female prod websites.
+
+ANAlogous color palette
+Complementary color palette
+
+Just use a maximum of 2 font faces in a project to be maxxxxx.(No more).
+
+The lines need not be too long. Make sure to use 40-60 characters per line to give the best experience.
+
+Make proper alignment, proper sizing. 
+Make the heading and body have the same alignment.
+Whitespace is important. The user doesnt need too much information.
+
+
+

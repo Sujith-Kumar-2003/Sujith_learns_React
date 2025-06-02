@@ -1,0 +1,21 @@
+The classes are names using the format {property}{sides}-{size} for xs
+
+FOr others {property}{sides}-{breakpoint}-{size}
+sm,md,lg,xl,xxl
+
+m for margin
+p for padding
+
+t for top
+b bottom
+s start
+e end
+x for both left and right
+y for top and bottom
+blank for all 4 sides
+
+size values 0,1,2,3,4,5, auto.
+
+How to set all to dark mode
+
+data-bs-theme="dark"
