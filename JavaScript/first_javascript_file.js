@@ -10,3 +10,8 @@ function test(){
     console.log("b value is: " + b);
 }
 test()
+
+
+// Always try to use camelCasing
+
+
