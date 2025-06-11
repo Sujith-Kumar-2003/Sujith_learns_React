@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+}
+.container{
+    display: flex;
+}
+
+
+
+.person1{
+    float:left;
+    padding: 2px;
+}
+
+.person2{
+    padding:2px;
+}
+.submit{
+    padding:5px;
+    padding-top:70px;
+}
