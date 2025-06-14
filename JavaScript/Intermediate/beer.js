@@ -2,7 +2,7 @@ function beer(){
     var bottles = 99;
     while (bottles >= 1){
         if (bottles === 1){
-            console.log(bottles + " bottle of beer on the wall, " + bottles+ " bottlee of beer.")
+            console.log(bottles + " bottle of beer on the wall, " + bottles+ " bottle of beer.")
         bottles --;
         console.log("Take one down and pass it around, no more bottles of beer on the wall.")
     }
