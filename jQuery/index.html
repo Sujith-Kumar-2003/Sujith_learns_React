@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href = "styles.css" rel = "stylesheet">
+    <meta charset="UTF-8">
+    <title> jQuery</title>
+</head>
+<body>
+    <h1> Hello from jQuery</h1>
+    <button> Click me</button></br>
+    <button> Click me</button></br>
+    <button> Click me</button></br>
+    <button> Click me</button></br>
+    <button> Click me</button></br>
+
+    <img src = "./drum.png" alt = "a drum">
+    <a href = "https://www.google.com" > Just a google site, but it redirects to BING.</a>
+
+    <input type = "text" placeholder="Enter your text here">
+
+    <!-- Always place jquery above the index.js -->
+     <!-- If you dont do so, the formal index.js will be incorporated.-->
+      <!-- Its bcoz the server readds the code from top to bottom and runs the $ first 
+       inside the index.js and since its not defined, it will just throw an error rather than running the code.-->
+
+
+       <!-- Also you can put the jquery script inside the head section too but it may be tried rendering before the element loads up for example h1.
+        So you can test if the document is ready with the methods called $(document).ready(function{
+        $("h1").css("color","red")}); You can put all the code inside the ready so the code will be rendered once all the elements in the page are loaded. -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="crossorigin="anonymous"></script>
+    <script src = "index.js" charset = "UTF-8"></script>
+</body>
+</html>
