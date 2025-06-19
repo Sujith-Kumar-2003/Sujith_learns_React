@@ -63,7 +63,6 @@ else{
     startOver();
 }
     
-
 }
 
 function startOver(){
@@ -79,14 +78,6 @@ $(document).on("keydown", function () {
   }
 });
     
-
-
-
-
-
-
-
-
 
 
 
@@ -127,3 +118,19 @@ $(document).on("keydown", function () {
 // $(".yellow").on("click",function(){
 //     yellow.play();
 // })
+
+// {
+//     {
+//         {
+//             {
+//                 {
+//                     [
+//                         {
+//                           ()(((())))  
+//                         }
+//                     ]
+//                 }
+//             }
+//         }
+//     }
+// }

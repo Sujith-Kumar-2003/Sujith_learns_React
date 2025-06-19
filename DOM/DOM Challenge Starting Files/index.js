@@ -3,3 +3,5 @@ var myName = document.firstElementChild.lastElementChild.lastElementChild.lastEl
 myName.innerHTML = ("Sujith");
 
 document.querySelector(".list a").style.color = "red";
+
+myName.classList.toggle("huge");
